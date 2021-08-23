@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ga.mchorizons.boatfall.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BoatEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

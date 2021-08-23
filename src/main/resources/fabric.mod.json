@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "boatfall",
+  "version": "${version}",
+
+  "name": "Boat Fall",
+  "description": "A port of a fix from RandomPatches for MC-98160 and MC-105103.",
+  "authors": [
+    "EcoBuilder13"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/boat-fall",
+    "sources": "https://github.com/EcoBuilder13/boat-fall",
+    "issues": "https://github.com/EcoBuilder13/boat-fall/issues"
+  },
+
+  "license": "BSD",
+  "icon": "assets/boatfall/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "boatfall.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  }
+}
