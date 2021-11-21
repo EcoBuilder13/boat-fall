@@ -23,7 +23,7 @@ dependencies {
 	// Fabric API
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-    //Lazy DFU - Used to decrease start times in dev environment while not breaking world conversion
+        //Lazy DFU - Used to decrease start times in dev environment while not breaking world conversion
 	modImplementation 'maven.modrinth:lazydfu:0.1.2'
 }
 
