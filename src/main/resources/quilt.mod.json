@@ -1,0 +1,36 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "net.mchorizons",
+		"id": "boatfall",
+		"version": "${version}",
+		"metadata": {
+			"name": "Boat Fall",
+			"description": "A port of a fix from RandomPatches for MC-98160 and MC-105103.",
+			"contributors": {
+				"EcoBuilder13": "Owner"
+			},
+			"contact": {
+				"homepage": "https://modrinth.com/mod/boat-fall",
+				"issues": "https://github.com/EcoBuilder13/boat-fall/issues",
+				"sources": "https://github.com/EcoBuilder13/boat-fall"
+			},
+			"license": "BSD",
+			"icon": "assets/boatfall/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+
+		"depends": [
+			{
+				"id": "minecraft",
+				"versions": ">=1.19.x"
+			},
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.17.0-"
+			}
+		]
+	},
+
+	"mixin": "boatfall.mixins.json"
+}
