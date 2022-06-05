@@ -1,4 +1,4 @@
-package ga.mchorizons.boatfall.mixin;
+package net.mchorizons.boatfall.mixin;
 
 import net.minecraft.entity.vehicle.BoatEntity;
 import org.spongepowered.asm.mixin.Mixin;
