@@ -15,7 +15,7 @@
 				"issues": "https://github.com/EcoBuilder13/boat-fall/issues",
 				"sources": "https://github.com/EcoBuilder13/boat-fall"
 			},
-			"license": "BSD",
+			"license": "BSD-3-Clause",
 			"icon": "assets/boatfall/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
@@ -27,7 +27,7 @@
 			},
 			{
 				"id": "quilt_loader",
-				"versions": ">=0.17.0-"
+				"versions": ">=0.16.0-"
 			}
 		]
 	},
