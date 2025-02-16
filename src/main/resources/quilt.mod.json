@@ -4,6 +4,17 @@
 		"group": "net.mchorizons",
 		"id": "boatfall",
 		"version": "${version}",
+		"depends": [
+			{
+				"id": "minecraft",
+				"versions": "1.21.x"
+			},
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.26.0"
+			}
+		],
+		"intermediate_mappings": "net.fabricmc:intermediary",
 		"metadata": {
 			"name": "Boat Fall",
 			"description": "A port of a fix from RandomPatches for MC-98160 and MC-105103.",
@@ -18,19 +29,6 @@
 			"license": "BSD-3-Clause",
 			"icon": "assets/boatfall/icon.png"
 		},
-		"intermediate_mappings": "net.fabricmc:intermediary",
-
-		"depends": [
-			{
-				"id": "minecraft",
-				"versions": "1.20.x"
-			},
-			{
-				"id": "quilt_loader",
-				"versions": ">=0.18.0"
-			}
-		]
 	},
-
 	"mixin": "boatfall.mixins.json"
 }
